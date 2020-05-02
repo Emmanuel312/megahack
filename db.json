@@ -2,35 +2,1303 @@
   "products": [
     {
       "id": 1,
-      "name": "p1",
-      "quantity": 10,
-      "colors": {
-        "blue": {
-          "quantity": 4
-        },
-        "red": {
-          "quantity": 4
-        },
-        "green": {
-          "quantity": 2
-        }
-      }
+      "name": "Paper - Brown Paper Mini Cups",
+      "quantity": 49,
+      "colors": [
+        { "color": "preto", "quantity": 51 },
+        { "color": "branco", "quantity": 94 },
+        { "color": "verde", "quantity": 78 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 17
     },
     {
       "id": 2,
-      "name": "p1",
+      "name": "Wine - red, Pelee Island Merlot",
+      "quantity": 81,
+      "colors": [
+        { "color": "vermelho", "quantity": 94 },
+        { "color": "rosa", "quantity": 75 },
+        { "color": "verde", "quantity": 32 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 11
+    },
+    {
+      "id": 3,
+      "name": "Cheese - Camembert",
+      "quantity": 4,
+      "colors": [
+        { "color": "marrom", "quantity": 92 },
+        { "color": "amarelo", "quantity": 32 },
+        { "color": "rosa", "quantity": 49 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 13
+    },
+    {
+      "id": 4,
+      "name": "Mushroom - King Eryingii",
+      "quantity": 39,
+      "colors": [
+        { "color": "roxo", "quantity": 14 },
+        { "color": "verde", "quantity": 34 },
+        { "color": "laranja", "quantity": 92 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 27
+    },
+    {
+      "id": 5,
+      "name": "Chinese Foods - Plain Fried Rice",
+      "quantity": 28,
+      "colors": [
+        { "color": "vermelho", "quantity": 73 },
+        { "color": "rosa", "quantity": 100 },
+        { "color": "azul", "quantity": 25 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 13
+    },
+    {
+      "id": 6,
+      "name": "Juice - Apple, 1.36l",
+      "quantity": 61,
+      "colors": [
+        { "color": "roxo", "quantity": 87 },
+        { "color": "prata", "quantity": 97 },
+        { "color": "dourado", "quantity": 70 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 6
+    },
+    {
+      "id": 7,
+      "name": "Longos - Chicken Wings",
+      "quantity": 5,
+      "colors": [
+        { "color": "cinza", "quantity": 34 },
+        { "color": "rosa", "quantity": 13 },
+        { "color": "cinza", "quantity": 70 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 10
+    },
+    {
+      "id": 8,
+      "name": "Muffins - Assorted",
+      "quantity": 79,
+      "colors": [
+        { "color": "rosa", "quantity": 26 },
+        { "color": "marrom", "quantity": 30 },
+        { "color": "azul", "quantity": 62 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 14
+    },
+    {
+      "id": 9,
+      "name": "Venison - Racks Frenched",
+      "quantity": 90,
+      "colors": [
+        { "color": "cinza", "quantity": 54 },
+        { "color": "branco", "quantity": 87 },
+        { "color": "cinza", "quantity": 11 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 9
+    },
+    {
+      "id": 10,
+      "name": "Rice - Basmati",
+      "quantity": 37,
+      "colors": [
+        { "color": "azul", "quantity": 68 },
+        { "color": "verde", "quantity": 51 },
+        { "color": "vermelho", "quantity": 23 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 28
+    },
+    {
+      "id": 11,
+      "name": "Bread Sour Rolls",
+      "quantity": 70,
+      "colors": [
+        { "color": "branco", "quantity": 82 },
+        { "color": "rosa", "quantity": 85 },
+        { "color": "marrom", "quantity": 20 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 16
+    },
+    {
+      "id": 12,
+      "name": "Pepsi, 355 Ml",
+      "quantity": 2,
+      "colors": [
+        { "color": "azul", "quantity": 72 },
+        { "color": "prata", "quantity": 23 },
+        { "color": "branco", "quantity": 2 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 4
+    },
+    {
+      "id": 13,
+      "name": "Pepper - vermelho Thai",
+      "quantity": 99,
+      "colors": [
+        { "color": "dourado", "quantity": 95 },
+        { "color": "marrom", "quantity": 73 },
+        { "color": "preto", "quantity": 55 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 18
+    },
+    {
+      "id": 14,
+      "name": "Muffin - Mix - Mango Sour Cherry",
       "quantity": 20,
-      "colors": {
-        "blue": {
-          "quantity": 8
-        },
-        "red": {
-          "quantity": 4
-        },
-        "green": {
-          "quantity": 8
-        }
-      }
+      "colors": [
+        { "color": "marrom", "quantity": 85 },
+        { "color": "roxo", "quantity": 96 },
+        { "color": "vermelho", "quantity": 33 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 13
+    },
+    {
+      "id": 15,
+      "name": "Beef - Rib Roast, Cap On",
+      "quantity": 63,
+      "colors": [
+        { "color": "dourado", "quantity": 77 },
+        { "color": "cinza", "quantity": 15 },
+        { "color": "marrom", "quantity": 13 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 23
+    },
+    {
+      "id": 16,
+      "name": "Shrimp - Baby, Warm Water",
+      "quantity": 66,
+      "colors": [
+        { "color": "verde", "quantity": 92 },
+        { "color": "branco", "quantity": 76 },
+        { "color": "rosa", "quantity": 50 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 20
+    },
+    {
+      "id": 17,
+      "name": "Bag Stand",
+      "quantity": 91,
+      "colors": [
+        { "color": "branco", "quantity": 48 },
+        { "color": "vermelho", "quantity": 47 },
+        { "color": "roxo", "quantity": 52 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 24
+    },
+    {
+      "id": 18,
+      "name": "Scallops - 20/30",
+      "quantity": 50,
+      "colors": [
+        { "color": "verde", "quantity": 65 },
+        { "color": "branco", "quantity": 26 },
+        { "color": "prata", "quantity": 53 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 28
+    },
+    {
+      "id": 19,
+      "name": "Mushroom - Crimini",
+      "quantity": 31,
+      "colors": [
+        { "color": "roxo", "quantity": 21 },
+        { "color": "branco", "quantity": 49 },
+        { "color": "roxo", "quantity": 54 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 24
+    },
+    {
+      "id": 20,
+      "name": "Wine - Lou Black Shiraz",
+      "quantity": 6,
+      "colors": [
+        { "color": "roxo", "quantity": 65 },
+        { "color": "azul", "quantity": 75 },
+        { "color": "preto", "quantity": 23 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 6
+    },
+    {
+      "id": 21,
+      "name": "Eggplant Oriental",
+      "quantity": 46,
+      "colors": [
+        { "color": "vermelho", "quantity": 68 },
+        { "color": "vermelho", "quantity": 80 },
+        { "color": "branco", "quantity": 36 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 14
+    },
+    {
+      "id": 22,
+      "name": "Cranberries - Frozen",
+      "quantity": 11,
+      "colors": [
+        { "color": "roxo", "quantity": 66 },
+        { "color": "verde", "quantity": 75 },
+        { "color": "verde", "quantity": 30 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 28
+    },
+    {
+      "id": 23,
+      "name": "Cup - Translucent 7 Oz Clear",
+      "quantity": 95,
+      "colors": [
+        { "color": "prata", "quantity": 5 },
+        { "color": "marrom", "quantity": 27 },
+        { "color": "branco", "quantity": 47 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 27
+    },
+    {
+      "id": 24,
+      "name": "Pasta - Canelloni, Single Serve",
+      "quantity": 37,
+      "colors": [
+        { "color": "rosa", "quantity": 83 },
+        { "color": "dourado", "quantity": 29 },
+        { "color": "vermelho", "quantity": 5 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 27
+    },
+    {
+      "id": 25,
+      "name": "Crackers - Soda / Saltins",
+      "quantity": 88,
+      "colors": [
+        { "color": "branco", "quantity": 60 },
+        { "color": "roxo", "quantity": 51 },
+        { "color": "prata", "quantity": 45 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 3
+    },
+    {
+      "id": 26,
+      "name": "Oil - Avocado",
+      "quantity": 86,
+      "colors": [
+        { "color": "verde", "quantity": 95 },
+        { "color": "roxo", "quantity": 96 },
+        { "color": "branco", "quantity": 23 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 21
+    },
+    {
+      "id": 27,
+      "name": "Wine - Port Late Bottled Vintage",
+      "quantity": 6,
+      "colors": [
+        { "color": "prata", "quantity": 52 },
+        { "color": "azul", "quantity": 55 },
+        { "color": "preto", "quantity": 70 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 1
+    },
+    {
+      "id": 28,
+      "name": "Vanilla Beans",
+      "quantity": 26,
+      "colors": [
+        { "color": "rosa", "quantity": 91 },
+        { "color": "marrom", "quantity": 97 },
+        { "color": "verde", "quantity": 5 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 19
+    },
+    {
+      "id": 29,
+      "name": "Oven Mitts - 15 Inch",
+      "quantity": 54,
+      "colors": [
+        { "color": "branco", "quantity": 63 },
+        { "color": "marrom", "quantity": 69 },
+        { "color": "roxo", "quantity": 31 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 8
+    },
+    {
+      "id": 30,
+      "name": "Lychee - Canned",
+      "quantity": 98,
+      "colors": [
+        { "color": "roxo", "quantity": 64 },
+        { "color": "branco", "quantity": 22 },
+        { "color": "dourado", "quantity": 98 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 27
+    },
+    {
+      "id": 31,
+      "name": "Creme De Menth - White",
+      "quantity": 32,
+      "colors": [
+        { "color": "cinza", "quantity": 45 },
+        { "color": "rosa", "quantity": 78 },
+        { "color": "dourado", "quantity": 36 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 25
+    },
+    {
+      "id": 32,
+      "name": "Papadam",
+      "quantity": 58,
+      "colors": [
+        { "color": "amarelo", "quantity": 33 },
+        { "color": "cinza", "quantity": 64 },
+        { "color": "dourado", "quantity": 17 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 13
+    },
+    {
+      "id": 33,
+      "name": "Kumquat",
+      "quantity": 14,
+      "colors": [
+        { "color": "rosa", "quantity": 7 },
+        { "color": "verde", "quantity": 37 },
+        { "color": "verde", "quantity": 62 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 6
+    },
+    {
+      "id": 34,
+      "name": "Chicken Giblets",
+      "quantity": 43,
+      "colors": [
+        { "color": "roxo", "quantity": 10 },
+        { "color": "verde", "quantity": 21 },
+        { "color": "dourado", "quantity": 35 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 9
+    },
+    {
+      "id": 35,
+      "name": "Milk Powder",
+      "quantity": 55,
+      "colors": [
+        { "color": "dourado", "quantity": 26 },
+        { "color": "marrom", "quantity": 45 },
+        { "color": "marrom", "quantity": 0 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 11
+    },
+    {
+      "id": 36,
+      "name": "Appetizer - Spring Roll, Veg",
+      "quantity": 99,
+      "colors": [
+        { "color": "azul", "quantity": 40 },
+        { "color": "rosa", "quantity": 64 },
+        { "color": "verde", "quantity": 89 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 4
+    },
+    {
+      "id": 37,
+      "name": "Wine - Chardonnay South",
+      "quantity": 42,
+      "colors": [
+        { "color": "rosa", "quantity": 11 },
+        { "color": "branco", "quantity": 39 },
+        { "color": "marrom", "quantity": 88 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 2
+    },
+    {
+      "id": 38,
+      "name": "Cheese - Shvermelho Cheddar / Mozza",
+      "quantity": 83,
+      "colors": [
+        { "color": "vermelho", "quantity": 23 },
+        { "color": "roxo", "quantity": 52 },
+        { "color": "laranja", "quantity": 17 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 22
+    },
+    {
+      "id": 39,
+      "name": "Allspice - Jamaican",
+      "quantity": 28,
+      "colors": [
+        { "color": "azul", "quantity": 9 },
+        { "color": "branco", "quantity": 55 },
+        { "color": "cinza", "quantity": 39 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 10
+    },
+    {
+      "id": 40,
+      "name": "The Pop Shoppe - Cream Soda",
+      "quantity": 83,
+      "colors": [
+        { "color": "roxo", "quantity": 83 },
+        { "color": "dourado", "quantity": 65 },
+        { "color": "rosa", "quantity": 28 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 9
+    },
+    {
+      "id": 41,
+      "name": "Calypso - Pineapple Passion",
+      "quantity": 21,
+      "colors": [
+        { "color": "dourado", "quantity": 37 },
+        { "color": "roxo", "quantity": 52 },
+        { "color": "prata", "quantity": 11 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 19
+    },
+    {
+      "id": 42,
+      "name": "Apple - Northern Spy",
+      "quantity": 27,
+      "colors": [
+        { "color": "verde", "quantity": 63 },
+        { "color": "rosa", "quantity": 60 },
+        { "color": "branco", "quantity": 91 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 27
+    },
+    {
+      "id": 43,
+      "name": "Table Cloth 53x69 White",
+      "quantity": 91,
+      "colors": [
+        { "color": "prata", "quantity": 47 },
+        { "color": "azul", "quantity": 22 },
+        { "color": "verde", "quantity": 87 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 24
+    },
+    {
+      "id": 44,
+      "name": "Filling - Mince Meat",
+      "quantity": 33,
+      "colors": [
+        { "color": "verde", "quantity": 3 },
+        { "color": "vermelho", "quantity": 39 },
+        { "color": "roxo", "quantity": 33 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 11
+    },
+    {
+      "id": 45,
+      "name": "Soup - Knorr, Chicken Noodle",
+      "quantity": 55,
+      "colors": [
+        { "color": "verde", "quantity": 59 },
+        { "color": "dourado", "quantity": 6 },
+        { "color": "marrom", "quantity": 18 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 18
+    },
+    {
+      "id": 46,
+      "name": "Mushroom - Enoki, Fresh",
+      "quantity": 51,
+      "colors": [
+        { "color": "vermelho", "quantity": 92 },
+        { "color": "branco", "quantity": 33 },
+        { "color": "dourado", "quantity": 79 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 6
+    },
+    {
+      "id": 47,
+      "name": "Squid U5 - Thailand",
+      "quantity": 11,
+      "colors": [
+        { "color": "laranja", "quantity": 81 },
+        { "color": "cinza", "quantity": 11 },
+        { "color": "cinza", "quantity": 35 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 11
+    },
+    {
+      "id": 48,
+      "name": "Mushroom - White Button",
+      "quantity": 47,
+      "colors": [
+        { "color": "dourado", "quantity": 69 },
+        { "color": "azul", "quantity": 77 },
+        { "color": "verde", "quantity": 94 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 3
+    },
+    {
+      "id": 49,
+      "name": "Beer - Mcauslan Apricot",
+      "quantity": 36,
+      "colors": [
+        { "color": "laranja", "quantity": 86 },
+        { "color": "cinza", "quantity": 51 },
+        { "color": "dourado", "quantity": 30 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 28
+    },
+    {
+      "id": 50,
+      "name": "Cattail Hearts",
+      "quantity": 5,
+      "colors": [
+        { "color": "azul", "quantity": 79 },
+        { "color": "vermelho", "quantity": 38 },
+        { "color": "azul", "quantity": 39 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 27
+    },
+    {
+      "id": 51,
+      "name": "Transfer Sheets",
+      "quantity": 16,
+      "colors": [
+        { "color": "verde", "quantity": 61 },
+        { "color": "branco", "quantity": 66 },
+        { "color": "marrom", "quantity": 11 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 18
+    },
+    {
+      "id": 52,
+      "name": "Flour - Bran, vermelho",
+      "quantity": 28,
+      "colors": [
+        { "color": "roxo", "quantity": 82 },
+        { "color": "roxo", "quantity": 63 },
+        { "color": "prata", "quantity": 63 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 19
+    },
+    {
+      "id": 53,
+      "name": "Beer - True North Strong Ale",
+      "quantity": 27,
+      "colors": [
+        { "color": "verde", "quantity": 86 },
+        { "color": "verde", "quantity": 50 },
+        { "color": "preto", "quantity": 81 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 16
+    },
+    {
+      "id": 54,
+      "name": "Guinea Fowl",
+      "quantity": 18,
+      "colors": [
+        { "color": "verde", "quantity": 14 },
+        { "color": "marrom", "quantity": 72 },
+        { "color": "rosa", "quantity": 39 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 5
+    },
+    {
+      "id": 55,
+      "name": "Coconut - Shvermelhoded, Unsweet",
+      "quantity": 77,
+      "colors": [
+        { "color": "marrom", "quantity": 34 },
+        { "color": "branco", "quantity": 82 },
+        { "color": "cinza", "quantity": 13 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 25
+    },
+    {
+      "id": 56,
+      "name": "Pomegranates",
+      "quantity": 98,
+      "colors": [
+        { "color": "verde", "quantity": 65 },
+        { "color": "laranja", "quantity": 19 },
+        { "color": "branco", "quantity": 88 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 19
+    },
+    {
+      "id": 57,
+      "name": "Bagelers - Cinn / Brown Sugar",
+      "quantity": 24,
+      "colors": [
+        { "color": "branco", "quantity": 12 },
+        { "color": "azul", "quantity": 31 },
+        { "color": "vermelho", "quantity": 81 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 13
+    },
+    {
+      "id": 58,
+      "name": "Wine - Chateau Bonnet",
+      "quantity": 40,
+      "colors": [
+        { "color": "dourado", "quantity": 37 },
+        { "color": "dourado", "quantity": 80 },
+        { "color": "marrom", "quantity": 22 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 28
+    },
+    {
+      "id": 59,
+      "name": "Wine - Harrow Estates, Vidal",
+      "quantity": 86,
+      "colors": [
+        { "color": "rosa", "quantity": 28 },
+        { "color": "verde", "quantity": 76 },
+        { "color": "prata", "quantity": 79 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 28
+    },
+    {
+      "id": 60,
+      "name": "Fruit Mix - Light",
+      "quantity": 90,
+      "colors": [
+        { "color": "azul", "quantity": 27 },
+        { "color": "azul", "quantity": 65 },
+        { "color": "laranja", "quantity": 80 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 30
+    },
+    {
+      "id": 61,
+      "name": "Pork - Caul Fat",
+      "quantity": 2,
+      "colors": [
+        { "color": "azul", "quantity": 93 },
+        { "color": "marrom", "quantity": 54 },
+        { "color": "amarelo", "quantity": 56 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 25
+    },
+    {
+      "id": 62,
+      "name": "Soup - Campbells, Minestrone",
+      "quantity": 68,
+      "colors": [
+        { "color": "laranja", "quantity": 3 },
+        { "color": "azul", "quantity": 41 },
+        { "color": "vermelho", "quantity": 34 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 7
+    },
+    {
+      "id": 63,
+      "name": "Ecolab - verde Frc, Cleaner",
+      "quantity": 46,
+      "colors": [
+        { "color": "roxo", "quantity": 54 },
+        { "color": "preto", "quantity": 40 },
+        { "color": "verde", "quantity": 63 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 28
+    },
+    {
+      "id": 64,
+      "name": "Wine - vermelho, Mosaic Zweigelt",
+      "quantity": 51,
+      "colors": [
+        { "color": "azul", "quantity": 21 },
+        { "color": "vermelho", "quantity": 67 },
+        { "color": "azul", "quantity": 7 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 12
+    },
+    {
+      "id": 65,
+      "name": "Mace",
+      "quantity": 64,
+      "colors": [
+        { "color": "vermelho", "quantity": 40 },
+        { "color": "laranja", "quantity": 17 },
+        { "color": "roxo", "quantity": 100 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 20
+    },
+    {
+      "id": 66,
+      "name": "Lettuce - Arugula",
+      "quantity": 69,
+      "colors": [
+        { "color": "roxo", "quantity": 20 },
+        { "color": "prata", "quantity": 17 },
+        { "color": "verde", "quantity": 43 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 5
+    },
+    {
+      "id": 67,
+      "name": "Higashimaru Usukuchi Soy",
+      "quantity": 46,
+      "colors": [
+        { "color": "dourado", "quantity": 55 },
+        { "color": "marrom", "quantity": 60 },
+        { "color": "cinza", "quantity": 52 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 25
+    },
+    {
+      "id": 68,
+      "name": "Flour - Bread",
+      "quantity": 71,
+      "colors": [
+        { "color": "azul", "quantity": 38 },
+        { "color": "dourado", "quantity": 40 },
+        { "color": "azul", "quantity": 97 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 11
+    },
+    {
+      "id": 69,
+      "name": "Vermacelli - Sprinkles, Assorted",
+      "quantity": 41,
+      "colors": [
+        { "color": "branco", "quantity": 5 },
+        { "color": "prata", "quantity": 78 },
+        { "color": "branco", "quantity": 58 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 18
+    },
+    {
+      "id": 70,
+      "name": "Longos - Chicken Wings",
+      "quantity": 83,
+      "colors": [
+        { "color": "dourado", "quantity": 74 },
+        { "color": "branco", "quantity": 25 },
+        { "color": "vermelho", "quantity": 98 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 5
+    },
+    {
+      "id": 71,
+      "name": "Wine - Taylors Reserve",
+      "quantity": 13,
+      "colors": [
+        { "color": "marrom", "quantity": 10 },
+        { "color": "laranja", "quantity": 79 },
+        { "color": "preto", "quantity": 8 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 28
+    },
+    {
+      "id": 72,
+      "name": "Tea - Lemon Scented",
+      "quantity": 46,
+      "colors": [
+        { "color": "roxo", "quantity": 3 },
+        { "color": "vermelho", "quantity": 76 },
+        { "color": "verde", "quantity": 46 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 11
+    },
+    {
+      "id": 73,
+      "name": "Yeast - Fresh, Fleischman",
+      "quantity": 93,
+      "colors": [
+        { "color": "branco", "quantity": 73 },
+        { "color": "azul", "quantity": 79 },
+        { "color": "amarelo", "quantity": 54 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 9
+    },
+    {
+      "id": 74,
+      "name": "Beans - amarelo",
+      "quantity": 83,
+      "colors": [
+        { "color": "verde", "quantity": 97 },
+        { "color": "marrom", "quantity": 25 },
+        { "color": "vermelho", "quantity": 12 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 11
+    },
+    {
+      "id": 75,
+      "name": "Barramundi",
+      "quantity": 68,
+      "colors": [
+        { "color": "preto", "quantity": 79 },
+        { "color": "marrom", "quantity": 45 },
+        { "color": "branco", "quantity": 38 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 24
+    },
+    {
+      "id": 76,
+      "name": "Appetizer - Assorted Box",
+      "quantity": 0,
+      "colors": [
+        { "color": "laranja", "quantity": 100 },
+        { "color": "prata", "quantity": 53 },
+        { "color": "roxo", "quantity": 81 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 21
+    },
+    {
+      "id": 77,
+      "name": "Beef - Bresaola",
+      "quantity": 71,
+      "colors": [
+        { "color": "azul", "quantity": 24 },
+        { "color": "prata", "quantity": 97 },
+        { "color": "rosa", "quantity": 74 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 26
+    },
+    {
+      "id": 78,
+      "name": "Nantucket - 518ml",
+      "quantity": 70,
+      "colors": [
+        { "color": "cinza", "quantity": 16 },
+        { "color": "vermelho", "quantity": 46 },
+        { "color": "azul", "quantity": 10 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 6
+    },
+    {
+      "id": 79,
+      "name": "Bagels Poppyseed",
+      "quantity": 3,
+      "colors": [
+        { "color": "marrom", "quantity": 24 },
+        { "color": "marrom", "quantity": 70 },
+        { "color": "marrom", "quantity": 97 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 20
+    },
+    {
+      "id": 80,
+      "name": "Island Oasis - Peach Daiquiri",
+      "quantity": 66,
+      "colors": [
+        { "color": "branco", "quantity": 26 },
+        { "color": "cinza", "quantity": 96 },
+        { "color": "roxo", "quantity": 57 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 9
+    },
+    {
+      "id": 81,
+      "name": "Tomatoes - Hot House",
+      "quantity": 43,
+      "colors": [
+        { "color": "roxo", "quantity": 8 },
+        { "color": "roxo", "quantity": 35 },
+        { "color": "roxo", "quantity": 35 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 25
+    },
+    {
+      "id": 82,
+      "name": "Cheese - Gouda",
+      "quantity": 18,
+      "colors": [
+        { "color": "marrom", "quantity": 95 },
+        { "color": "laranja", "quantity": 63 },
+        { "color": "dourado", "quantity": 37 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 10
+    },
+    {
+      "id": 83,
+      "name": "Bread Base - Gold Formel",
+      "quantity": 72,
+      "colors": [
+        { "color": "laranja", "quantity": 62 },
+        { "color": "cinza", "quantity": 61 },
+        { "color": "verde", "quantity": 15 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 18
+    },
+    {
+      "id": 84,
+      "name": "Radish",
+      "quantity": 69,
+      "colors": [
+        { "color": "vermelho", "quantity": 68 },
+        { "color": "cinza", "quantity": 59 },
+        { "color": "amarelo", "quantity": 70 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 7
+    },
+    {
+      "id": 85,
+      "name": "Tomato - Plum With Basil",
+      "quantity": 58,
+      "colors": [
+        { "color": "laranja", "quantity": 76 },
+        { "color": "azul", "quantity": 76 },
+        { "color": "amarelo", "quantity": 65 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 29
+    },
+    {
+      "id": 86,
+      "name": "Knife Plastic - White",
+      "quantity": 98,
+      "colors": [
+        { "color": "marrom", "quantity": 88 },
+        { "color": "branco", "quantity": 86 },
+        { "color": "branco", "quantity": 54 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 26
+    },
+    {
+      "id": 87,
+      "name": "Tea - Mint",
+      "quantity": 11,
+      "colors": [
+        { "color": "prata", "quantity": 90 },
+        { "color": "roxo", "quantity": 48 },
+        { "color": "branco", "quantity": 56 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 5
+    },
+    {
+      "id": 88,
+      "name": "Sour Puss Raspberry",
+      "quantity": 28,
+      "colors": [
+        { "color": "laranja", "quantity": 1 },
+        { "color": "branco", "quantity": 49 },
+        { "color": "rosa", "quantity": 13 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 5
+    },
+    {
+      "id": 89,
+      "name": "Lotus Leaves",
+      "quantity": 30,
+      "colors": [
+        { "color": "branco", "quantity": 34 },
+        { "color": "cinza", "quantity": 68 },
+        { "color": "azul", "quantity": 4 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 6
+    },
+    {
+      "id": 90,
+      "name": "Anchovy In Oil",
+      "quantity": 26,
+      "colors": [
+        { "color": "verde", "quantity": 68 },
+        { "color": "preto", "quantity": 96 },
+        { "color": "laranja", "quantity": 47 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 30
+    },
+    {
+      "id": 91,
+      "name": "Lemon Balm - Fresh",
+      "quantity": 68,
+      "colors": [
+        { "color": "laranja", "quantity": 98 },
+        { "color": "preto", "quantity": 87 },
+        { "color": "branco", "quantity": 61 }
+      ],
+      "nfc": true,
+      "water_prof": true,
+      "delivery_time": 4
+    },
+    {
+      "id": 92,
+      "name": "Chicken - Livers",
+      "quantity": 1,
+      "colors": [
+        { "color": "vermelho", "quantity": 96 },
+        { "color": "preto", "quantity": 86 },
+        { "color": "verde", "quantity": 63 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 4
+    },
+    {
+      "id": 93,
+      "name": "Ham - Smoked, Bone - In",
+      "quantity": 15,
+      "colors": [
+        { "color": "roxo", "quantity": 11 },
+        { "color": "azul", "quantity": 73 },
+        { "color": "azul", "quantity": 80 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 16
+    },
+    {
+      "id": 94,
+      "name": "Pasta - Fusili Tri - Colouvermelho",
+      "quantity": 93,
+      "colors": [
+        { "color": "dourado", "quantity": 89 },
+        { "color": "azul", "quantity": 22 },
+        { "color": "roxo", "quantity": 89 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 23
+    },
+    {
+      "id": 95,
+      "name": "Turkey - Breast, Double",
+      "quantity": 11,
+      "colors": [
+        { "color": "laranja", "quantity": 12 },
+        { "color": "preto", "quantity": 60 },
+        { "color": "marrom", "quantity": 86 }
+      ],
+      "nfc": true,
+      "water_prof": false,
+      "delivery_time": 17
+    },
+    {
+      "id": 96,
+      "name": "Chambord Royal",
+      "quantity": 96,
+      "colors": [
+        { "color": "marrom", "quantity": 40 },
+        { "color": "azul", "quantity": 69 },
+        { "color": "verde", "quantity": 46 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 10
+    },
+    {
+      "id": 97,
+      "name": "Spice - Montreal Steak Spice",
+      "quantity": 1,
+      "colors": [
+        { "color": "verde", "quantity": 16 },
+        { "color": "preto", "quantity": 33 },
+        { "color": "vermelho", "quantity": 14 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 10
+    },
+    {
+      "id": 98,
+      "name": "Cheese - Pied De Vents",
+      "quantity": 57,
+      "colors": [
+        { "color": "preto", "quantity": 7 },
+        { "color": "dourado", "quantity": 70 },
+        { "color": "dourado", "quantity": 12 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 20
+    },
+    {
+      "id": 99,
+      "name": "Salmon - Sockeye Raw",
+      "quantity": 98,
+      "colors": [
+        { "color": "amarelo", "quantity": 79 },
+        { "color": "branco", "quantity": 89 },
+        { "color": "verde", "quantity": 28 }
+      ],
+      "nfc": false,
+      "water_prof": false,
+      "delivery_time": 12
+    },
+    {
+      "id": 100,
+      "name": "Table Cloth 72x144 White",
+      "quantity": 24,
+      "colors": [
+        { "color": "branco", "quantity": 96 },
+        { "color": "dourado", "quantity": 37 },
+        { "color": "dourado", "quantity": 62 }
+      ],
+      "nfc": false,
+      "water_prof": true,
+      "delivery_time": 27
     }
   ]
 }

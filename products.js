@@ -18,7 +18,7 @@ const products = [
 
   {
     id: 2,
-    name: "p1",
+    name: "p2",
     quantity: 20,
     colors: {
       blue: {

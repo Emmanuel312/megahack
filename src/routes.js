@@ -1,11 +1,5 @@
 const routes = require("express").Router();
-
-routes.post("/receive", (req, res) => {
-  console.log("chegou");
-  console.log(req.body);
-
-  return res.json({ ok: true });
-});
+const webhook = require("./controllers/webhook");
 
 routes.get("/send", async (req, res) => {
   try {
@@ -20,5 +14,7 @@ routes.get("/send", async (req, res) => {
     return res.status(400).json({ error });
   }
 });
+
+routes.post("/", webhook.root);
 
 module.exports = routes;
