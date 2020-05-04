@@ -7,7 +7,6 @@ module.exports = async function(product_id, question, color) {
     const { data } = await axios.get(
       `http://localhost:3001/products/${product_id}`
     );
-    console.log(data.colors);
 
     const colorItem = data.colors.find(
       (item) => colorWithoutGender(item.color) === colorWithoutGender(color)
@@ -18,7 +17,7 @@ module.exports = async function(product_id, question, color) {
       answer = `Olá, ainda temos ${colorItem.quantity} unidades da cor ${color}`;
     }
     const qa = await QA.create({ question, answer });
-    console.log(qa);
+
     return answer;
   } catch (error) {
     console.log(error);

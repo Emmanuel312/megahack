@@ -10,9 +10,9 @@ const warranty = require("../tasks/warranty");
 const good_product = require("../tasks/good_product");
 
 module.exports = {
-  async root(req, res) {
-    const { product_id, seller_id, query } = req.body;
-    console.log(product_id, query);
+  async ollie(req, res) {
+    const { product_id, query } = req.body;
+
     const response = await req.twilioClient.autopilot
       .assistants(process.env.TWILIO_ASSISTANT_SID)
       .queries.create({ language: "en-US", query });

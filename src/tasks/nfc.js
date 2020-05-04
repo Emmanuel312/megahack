@@ -1,5 +1,6 @@
 const axios = require("axios");
 const QA = require("../models/QA");
+const CustomAnswer = require("../models/CustomAnswer");
 
 module.exports = async function(product_id, question) {
   let answer;
@@ -7,15 +8,15 @@ module.exports = async function(product_id, question) {
     `http://localhost:3001/products/${product_id}`
   );
 
+  const customAnswer = await CustomAnswer.findOne({ task: "Nota fiscal" });
+
   if (data.nfc === true) {
-    answer =
-      "Olá, sou o Ollie e espero te ajudar! Emitimos nota fiscal, enviamos por e-mail e junto com o produto.";
+    answer = customAnswer.answer;
   } else {
-    answer =
-      "Olá, sou o Ollie e espero te ajudar! Emitimos nota fiscal após contabilizar o pagamento do pedido.";
+    answer = "Olá, sou o Ollie e espero te ajudar! Nao emitimos nota fiscal";
   }
 
   const qa = await QA.create({ question, answer });
-  console.log(qa);
+
   return answer;
 };

@@ -1,5 +1,6 @@
 const routes = require("express").Router();
 const webhook = require("./controllers/webhook");
+const answerController = require("./controllers/answerController");
 
 routes.get("/send", async (req, res) => {
   try {
@@ -15,6 +16,11 @@ routes.get("/send", async (req, res) => {
   }
 });
 
-routes.post("/", webhook.root);
+routes.post("/", webhook.ollie);
+
+// custom answers
+routes.get("/answer", answerController.index);
+routes.post("/answer", answerController.store);
+routes.put("/answer", answerController.update);
 
 module.exports = routes;

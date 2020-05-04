@@ -13,6 +13,6 @@ module.exports = async function(product_id, question) {
     answer = `Olá, sou o Ollie e espero te ajudar! Acabou o estoque.`;
   }
   const qa = await QA.create({ question, answer });
-  console.log(qa);
+
   return answer;
 };

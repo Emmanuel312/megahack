@@ -10,6 +10,6 @@ module.exports = async function(product_id, question) {
   answer = `O tempo médio de entrega é ${data.delivery_time} dias`;
 
   const qa = await QA.create({ question, answer });
-  console.log(qa);
+
   return answer;
 };
