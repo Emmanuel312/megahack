@@ -8,9 +8,9 @@ module.exports = async function(product_id, question) {
   );
 
   if (data.quantity > 0) {
-    answer = `Olá, sou o Ollie e espero te ajudar! Ainda temos ${data.quantity} disponíveis.`;
+    answer = `Olá, sou o Ollie e espero te ajudar! Sim temos pronta entrega!`;
   } else {
-    answer = `Olá, sou o Ollie e espero te ajudar! Acabou o estoque.`;
+    answer = `Olá, sou o Ollie e espero te ajudar! Não, acabou o estoque.`;
   }
   const qa = await QA.create({ question, answer });
   console.log(qa);

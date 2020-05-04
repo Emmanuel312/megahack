@@ -7,10 +7,10 @@ module.exports = async function(product_id, question) {
     `http://localhost:3001/products/${product_id}`
   );
 
-  if (data.quantity > 0) {
-    answer = `Olá, sou o Ollie e espero te ajudar! Ainda temos ${data.quantity} disponíveis.`;
+  if (data.warranty > 0) {
+    answer = `Olá, sou o Ollie e espero te ajudar! Sim tem ${data.warranty}meses de garantia`;
   } else {
-    answer = `Olá, sou o Ollie e espero te ajudar! Acabou o estoque.`;
+    answer = `Olá, sou o Ollie e espero te ajudar! Não tem garantia`;
   }
   const qa = await QA.create({ question, answer });
   console.log(qa);

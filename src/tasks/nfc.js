@@ -7,10 +7,12 @@ module.exports = async function(product_id, question) {
     `http://localhost:3001/products/${product_id}`
   );
 
-  if (data.nfc == true) {
-    answer = "Sim, emitimos nota fiscal!";
+  if (data.nfc === true) {
+    answer =
+      "Olá, sou o Ollie e espero te ajudar! Emitimos nota fiscal, enviamos por e-mail e junto com o produto.";
   } else {
-    answer = "Não emitimos nota fiscal!";
+    answer =
+      "Olá, sou o Ollie e espero te ajudar! Emitimos nota fiscal após contabilizar o pagamento do pedido.";
   }
 
   const qa = await QA.create({ question, answer });

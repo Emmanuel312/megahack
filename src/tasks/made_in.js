@@ -1,22 +1,21 @@
 const axios = require("axios");
 const QA = require("../models/QA");
 
-module.exports = async function(product_id, question, color) {
+module.exports = async function(product_id, question) {
   try {
     let answer;
     const { data } = await axios.get(
       `http://localhost:3001/products/${product_id}`
     );
-    console.log(data.colors);
 
-    const colorItem = data.colors.find(
-      (item) => colorWithoutGender(item.color) === colorWithoutGender(color)
-    );
-    if (!colorItem || colorItem.quantity === 0) {
-      answer = `Olá, o estoque da cor ${color} acabou :c`;
+    if (data.made_in === "BR") {
+      answer =
+        "Olá, sou o Ollie e espero te ajudar! Esse produto é fabricado no Brasil.";
     } else {
-      answer = `Olá, ainda temos ${colorItem.quantity} unidades da cor ${color}`;
+      answer =
+        "Olá, sou o Ollie e espero te ajudar! Esse produto não é fabricado no Brasil.";
     }
+
     const qa = await QA.create({ question, answer });
     console.log(qa);
     return answer;

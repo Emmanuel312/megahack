@@ -7,7 +7,7 @@ module.exports = async function(product_id, question) {
     `http://localhost:3001/products/${product_id}`
   );
 
-  if (data.water_prof == true) {
+  if (data.water_prof === true) {
     answer = "Olá, o produto é a prova d'agua";
   } else {
     answer = "Olá, o produto não é a prova d'agua";
